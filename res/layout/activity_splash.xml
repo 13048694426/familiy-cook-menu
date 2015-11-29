@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash" >
+
+    <TextView
+        android:layout_alignParentLeft="true"
+        android:ems="1"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:textColor="#cfff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="这是一款小而精致的菜谱类应用"
+        android:typeface="monospace"
+        />
+    
+     <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#5fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Author by Yansong"
+        android:typeface="monospace"
+        android:layout_marginBottom="5dp"
+        />
+    
+
+</RelativeLayout>

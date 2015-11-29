@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title"
+        android:gravity="center"
+        android:text="系统设置"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_text2"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/style_shape_linearlayout"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_cache"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:drawableRight="@drawable/ico_column01_2x"
+                android:gravity="center"
+                android:onClick="deleteCache"
+                android:padding="10dp"
+                android:text="清除缓存"
+                android:textColor="#c000"
+                android:textSize="20sp" >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.01dp"
+                android:background="#3000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:drawableRight="@drawable/ico_column01_2x"
+                android:gravity="center"
+                android:onClick="checkVersion"
+                android:padding="10dp"
+                android:text="检查版本更新"
+                android:textColor="#c000"
+                android:textSize="20sp" >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.01dp"
+                android:background="#3000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_advise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:drawableRight="@drawable/ico_column01_2x"
+                android:gravity="center"
+                android:onClick="adviceForUs"
+                android:padding="10dp"
+                android:text="您的宝贵意见"
+                android:textColor="#c000"
+                android:textSize="20sp" >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.01dp"
+                android:background="#3000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:drawableRight="@drawable/ico_column01_2x"
+                android:gravity="center"
+                android:onClick="aboutUs"
+                android:padding="10dp"
+                android:text="关于软件"
+                android:textColor="#c000"
+                android:textSize="20sp" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

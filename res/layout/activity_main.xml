@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+
+    <com.example.familiycookmenu.view.NoScrollViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6" >
+    </com.example.familiycookmenu.view.NoScrollViewPager>
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/btn_today_food"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tabbtn_today_food_selector"
+            android:button="@null" >
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/btn_food_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tabbtn_food_list_selector"
+            android:button="@null" >
+        </RadioButton>
+
+        <!-- <RadioButton
+            android:id="@+id/btn_food_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/tabbtn_food_search_selector"
+            android:button="@null" >
+        </RadioButton> -->
+
+        <RadioButton
+            android:id="@+id/btn_setting"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tabbtn_setting_selector"
+            android:button="@null" >
+        </RadioButton>
+"
+    </RadioGroup>
+
+</LinearLayout>
